@@ -301,6 +301,7 @@ class BucketReader(Referenceable):
         self._share_file = ShareFile(sharefname)
         self.storage_index = storage_index
         self.shnum = shnum
+        print(1)
 
     def __repr__(self):
         return "<%s %s %s>" % (self.__class__.__name__,
